@@ -31,7 +31,8 @@
 body{
     font-family: 'Ubuntu', sans-serif;
     font-size: 16px;
-    background-color: var(--Light-gray)
+    background-color: var(--Light-gray);
+    min-width: 700px;
 }
 .card{
     display: flex;
@@ -42,6 +43,7 @@ body{
     min-height: 600px;
     max-width: 900px;
 }
+
 .section-left{
     border-radius: 1rem;
     min-width: 375px;
@@ -92,14 +94,6 @@ body{
 .item-text>.step{
     color: var(--Cool-gray);
 }
-
-
-
-
-
-
-
-
 
 .card-right-container{
     position: relative;
